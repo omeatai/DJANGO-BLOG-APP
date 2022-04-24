@@ -19,7 +19,7 @@
             </header>
             <main class="container">
                 {% if user.is_authenticated %}
-                <p>Hi, {{ user.username }}! | <a href="{% url 'logout' %}">Log out</a></p> 
+                    <p>Hi, {{ user.username }}! | <a href="{% url 'logout' %}">Log out</a></p> 
                 {% else %}
                     <p>You are not logged in. | <a href="{% url 'login' %}">Log In</a></p>
                 {% endif %}

@@ -15,13 +15,6 @@ header h1 a {
     text-decoration: none;
 }
 
-.container {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    /* text-align: left; */
-}
-
 .nav-left { 
     margin-right: auto;
 }
